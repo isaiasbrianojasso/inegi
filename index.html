@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>INEGI</title>
+</head>
+
+<body>
+    <header>
+        <nav class="  border border-dark  shadow-lg navbar navbar-expand-md bg-primary navbar-primary rounded">
+            <a class="navbar-brand text-warning" href="#">INEGI</a>
+            <button data-target="#EjNavbar" type="button" data-toggle="collapse" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="EjNavbar" class="collapse navbar-collapse  rounded">
+                <ul class="navbar-nav  ml-auto rounded ">
+                    <li class="navbar-item  text-white"><a href="#" class="nav-link text-white"><i
+                                class="fas fa-home text-warning">Inicio</i></a></li>
+                    <li class="navbar-item "><a href="#" class="nav-link text-white">Servicios</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link text-white">Contacto</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link text-white">Acerca de</a></li>
+                </ul>
+                <div class="d-flex justify-content-center h-100">
+                    <div class="searchbar">
+                        <input class="search_input" type="text" name="" placeholder="Busqueda...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2-md pt-4 rounded">
+                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                        <strong>Censo de Población y Vivienda 2019</strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="shadow-lg bg-dark rounded">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Frecuencias </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><a href="#"><i class="fas fa-house-damage pt-3">Variables de Vivienda
+                                                    </i></a></li>
+                                            <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Tipos de
+                                                    Hogares</i></a></li>
+                                            <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Variables de
+                                                    Personas</i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            Cruces </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><a href="#"><i class="fas fa-home pt-3">Variables de Vivienda </i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fas fa-users pt-3"></i>Tipos de Personas</i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fas fa-file-alt pt-3"></i>Combinacion de
+                                                    Variables</i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Listados por Area </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><a href="#"><i class="fas fa-house-damage pt-3">Variables de
+                                                        Viviendas</i></a></li>
+                                            <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Variables de
+                                                    Personas</i></a></li>
+                                            <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Combinacion de
+                                                    Variables</i></a></li>
+                                            <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Conteos</i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                Estadisticas Basicas</button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li><a href="#"><i class="fas fa-house-damage pt-3">Promedios</i></a></li>
+                                                <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Medianas</i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
+                                                    Indicadores Poblacion</button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-house-damage pt-3">Poblacion por Sexo y Grupos de Edad</i></a></li>
+                                                    <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Relacion de Dependencia</i></a></li>
+                                                    <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Indice de Masculinidad/Feminidad</i></a></li>
+                                                    <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Promedio de años de escolaridad</i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                            <div class="card-header" id="headingThree">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                        data-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">
+                                                        Diccionado </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                                data-parent="#accordionExample">
+                                                <div class="card-body">
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-house-damage pt-3">Todas las Variables</i></a></li>
+                                                        <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Variables Geograficas</i></a></li>
+                                                        <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Variables de Vivienda</i></a></li>
+                                                        <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Variables de Persona</i></a></li>
+                                                        <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Categorias para variables de Vivienda</i></a></li>
+                                                        <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Categorias para variables  de Persona</i></a></li>
+                                                        <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Descargar el Diccionario</i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                                <div class="card-header" id="headingThree">
+                                                    <h5 class="mb-0">
+                                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                            data-target="#collapseThree" aria-expanded="false"
+                                                            aria-controls="collapseThree">
+                                                            RedAtam </button>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                                    data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        <ul>
+                                                            <h3>Procesador Estadistico
+                                                            </h3>
+                                                            <li><a href="#"><i class="fas fa-house-damage pt-3">Procesador Estadistico en Linea
+                                                            </i></a></li>
+                                                            <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Ejemplos de Indicadores</i></a></li>
+                                                            <h3>Ayuda</h3>
+                                                            <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Descargar el software Redatam</i></a></li>
+                                                            <li><a href="#"><i class="fas fa-house-damage pt-3"></i>Redatam Website</i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 ml-auto rounded">
+                    <div class="card-group rounded">
+                        <div class="card-body rounded">
+                            <div class="carousel slide rounded" data-ride="carousel" data-interval="1800">
+                                <div class="carousel-inner rounded">
+                                    <div class="carousel-item active">
+                                        <img class="w-100" src="https://placeimg.com/640/480/nature"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="w-100" src="https://placeimg.com/640/480/city"></img>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="w-100" src="https://placeimg.com/640/480/animals"></img>
+                                    </div>
+                                </div>
+                                <a data-slide="prev" href="#carrusel" class="carousel-control-prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                    <a data-slide="next" href="#carrusel" class="carousel-control-next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+    </main>
+
+    <footer class="card-footer">
+        Derechos Reservados @2019
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
